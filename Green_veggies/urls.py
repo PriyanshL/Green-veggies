@@ -16,8 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 import home.urls
+import forms.urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include(home.urls)),
+    path("form/", include(forms.urls)),
+
 ]
