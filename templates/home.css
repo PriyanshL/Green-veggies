@@ -1,0 +1,15 @@
+#content p {
+    font-family: Gotham, 'Helvetica Neue', Helvetica, Arial;
+}
+.quote p.quote_mark {
+    font-size: 35px;
+    text-align: left;
+    line-height: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+b {
+    font-weight: bold;
+}
