@@ -123,3 +123,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')] #from here the media files can be downloaded(e.g., we are doing for resume)
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # so here the files are kept or stored when uploaded
+MEDIA_URL = '/media/'
